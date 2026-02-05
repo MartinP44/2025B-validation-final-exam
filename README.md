@@ -49,9 +49,9 @@ Once the SonarQube container is healthy and the application is ready, execute th
 
 ```bash
 mvn clean verify sonar:sonar \
-  -Dsonar.projectKey=my-spring-project \
+  -Dsonar.projectKey=my-spring-exb2-project \
   -Dsonar.host.url=http://localhost:9000 \
-  -Dsonar.login=YOUR_GENERATED_TOKEN
+  -Dsonar.login=squ_b2da74ab0614734cabea6056b07c41e4d0908e01
 ```
 
 Note: Generate your SONAR_TOKEN in the SonarQube Dashboard under My Account > Security.
